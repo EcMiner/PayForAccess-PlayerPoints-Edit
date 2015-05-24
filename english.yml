@@ -1,0 +1,63 @@
+# This is the english (default) config file for PayToEnter
+prefix: "&6[PayForAccess] "
+
+# Error strings
+error.commandnotfound: "Command not found: &4%0"
+error.arguments: "Argument length does not match with function &4%0"
+error.nopermission: "You do not have the permission to execute this command!"
+error.material: "Could not create region because no correct trigger material found!"
+error.defined: "%0 has already been defined!"
+error.notexists: "%0 does not exist!"
+
+error.region.defined: "Region has already been defined!"
+error.region.notexists: "Region &4%0&c does not exist. Please create a WorldGuard region first!"
+error.region.notfound: "Region &4%0&c has not been defined yet!"
+
+error.permission.defined: "Permission has already been defined!"
+
+error.group.defined: "Group has already been defined!"
+
+error.cmd.defined: "Command '%0' has already been defined!"
+
+# Add command strings
+addloc.success: "&aTrigger has been added to '%0'"
+add.region.success: "&aAdded region '%0'"
+add.permission.success: "&aAdded permission '%0'"
+add.group.success: "&aAdded group '%0'"
+add.forget.success: "&aAdded forget of trigger '%0'"
+
+# Create command strings
+create.info: "Available types: %0"
+create.success: "&aProperty '%0' of trigger '%1' changed to '%2'"
+
+# Edit command strings
+edit.info: "Editable properties: &7%0"
+edit.success: "Value &7%0&f of region &7%1&f has been set to &7%2"
+
+# Forget command strings
+forget.success: "&aTrigger &2%0&a forgot that player &2%1&a bought access!"
+
+# List command strings
+list.found: "%0 found:"
+list.format: "&6%NUMBER%. &f%NAME% at %LOCATION% &6(Price: &f%PRICE%&6)"
+list.empty: "Nothing defined yet"
+
+# Reload command strings
+reload: "Configuration files has been reloaded"
+
+# Remove command strings
+remove.success: "&a'%0' successfully deleted!"
+
+# Select command strings
+select.selected: "&a&2%0&a has been selected for editing"
+select.deselected: "&a&2%0&a has been deselected"
+select.notselected: "&cNothing has been selected for editing!"
+
+# Buy strings
+buy.notenoughmoney: "&cYou don't have enough money to get access to %0! (Needed Money: %1)"
+buy.success: "&bYou successfully bought access to %0!"
+buy.alreadymember: "&bYou already bought access to %0!"
+buy.limit: "&cMaximum players reached (Allowed players: %0)"
+
+# Used for generated sentences (Like 'and' in 'A,B and C')
+vocab.and: "and"
